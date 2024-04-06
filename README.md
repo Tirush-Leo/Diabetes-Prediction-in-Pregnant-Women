@@ -3,6 +3,8 @@
 
 This project focuses on the application of machine learning techniques to predict the onset of diabetes in pregnant women, utilizing a dataset of health metrics. Early detection of diabetes during pregnancy is crucial for the health and well-being of both mother and child. By leveraging the Support Vector Machine (SVM) algorithm, this project aims to contribute to preventive health measures during pregnancy.
 
+![](https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202309/this-screening-test--the-first-of-its-kind-in-the-world--not-only-finds-a-way-to-prevent-diabetes-fr-120432645-16x9.jpg?VersionId=7I1_2Ov2hFJ7wjZmQfLrIVN6JBpIoPQs&size=690:388)
+
 ## Project Overview
 
 Diabetes during pregnancy, also known as gestational diabetes, can pose significant risks if left undiagnosed. This project uses a structured dataset containing health information of pregnant women to train a model capable of predicting the likelihood of diabetes. The model is built using the SVM algorithm, renowned for its effectiveness in classification tasks.
@@ -18,6 +20,8 @@ Diabetes during pregnancy, also known as gestational diabetes, can pose signific
 
 The dataset comprises various health metrics relevant to diabetes diagnosis, such as glucose levels, blood pressure, insulin, BMI, and more. Each entry is labeled as either diabetic or non-diabetic, serving as the foundation for training and testing the SVM model.
 
+Dataset Link: https://www.dropbox.com/s/uh7o7uyeghqkhoy/diabetes.csv?dl=0
+
 ## Model Training and Evaluation
 
 The project follows a systematic approach to data processing and model training:
@@ -29,6 +33,8 @@ The project follows a systematic approach to data processing and model training:
 3. **Evaluation:** Model performance is evaluated using accuracy scores for both training and testing sets, providing insights into the model's ability to generalize to new data.
 
 4. **Prediction:** The trained model is then used to make predictions on new data, demonstrating its practical application in predicting diabetes in pregnant women.
+
+![](https://vitalflux.com/wp-content/uploads/2022/08/support-vector-machine-1.png)
 
 ## Running the Project
 
